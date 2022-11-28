@@ -1,0 +1,160 @@
+/* @theme your-theme */
+
+@import "default";
+
+/* Import roboto and firacode using google */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Fira+Code:300,400,500,700");
+
+section {
+  /* A4 document size */
+  width: 210mm;
+  height: 297mm;
+  /* Roboto font */
+  font-family: "Roboto", sans-serif;
+  /* Font size */
+  font-size: 16px;
+  justify-content: flex-start;
+  padding-top: 120px;
+}
+section header {
+  font-size: 14px;
+}
+section header strong {
+  font-weight: normal;
+  position: fixed;
+  top: 21px;
+  right: 21px;
+}
+section header a {
+  color: hsla(0, 0%, 40%, 0.75);
+  text-decoration: none;
+}
+
+.lead {
+  justify-content: center !important;
+}
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+code.hljs {
+  padding: 3px 5px;
+}
+.hljs {
+  color: #383a42;
+  background: #fafafa;
+}
+.hljs-comment,
+.hljs-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+.hljs-doctag,
+.hljs-formula,
+.hljs-keyword {
+  color: #a626a4;
+}
+.hljs-deletion,
+.hljs-name,
+.hljs-section,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #e45649;
+}
+.hljs-literal {
+  color: #0184bb;
+}
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta .hljs-string,
+.hljs-regexp,
+.hljs-string {
+  color: #50a14f;
+}
+.hljs-attr,
+.hljs-number,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-pseudo,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable {
+  color: #986801;
+}
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-symbol,
+.hljs-title {
+  color: #4078f2;
+}
+.hljs-built_in,
+.hljs-class .hljs-title,
+.hljs-title.class_ {
+  color: #c18401;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: 700;
+}
+.hljs-link {
+  text-decoration: underline;
+}
+
+section code,
+section kbd,
+section pre,
+section samp {
+  /* Fira code font */
+  font-family: "Fira Code", monospace !important;
+}
+
+section pre {
+  border-radius: 3px;
+  border: none;
+}
+
+
+.columns-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img2x{
+  width: 49%;
+}
+
+
+section.hero{
+    justify-content: center;
+}
+
+
+section.hero h1 {
+  text-align: center;
+  color:#000000;
+}
+
+section.toc{
+    justify-content: top;
+}
+section.toc small{
+    color:#898989;
+}
+
+.nowarp{
+    white-space: nowrap;
+}
+
+.img-round{
+  border-radius: 5px;
+}
