@@ -124,6 +124,11 @@ section pre {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
+.columns-3{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
 
 .text-center {
   text-align: center;
@@ -157,4 +162,24 @@ section.toc small{
 
 .img-round{
   border-radius: 5px;
+}
+
+.box{
+    display: block;
+    border: 1px solid #000;
+    margin: 10px; 
+    text-align: center;
+    padding: 5px;
+}
+
+.small{
+    font-size: 0.8em;
+    color:rgb(89, 86, 86);
+}
+
+.h150{
+    height: 150px;
+}
+.h100{
+    height: 100px;
 }
